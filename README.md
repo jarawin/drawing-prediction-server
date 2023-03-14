@@ -32,7 +32,7 @@ Follow these steps to set up the project:
      python predicWithImg.py
 
    - For route to predict by image in flask server:
-     python routing.py
+     python app.py
 
 ## Usage
 
