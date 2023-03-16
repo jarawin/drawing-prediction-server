@@ -22,7 +22,7 @@ def home():
 
 
 
-@app.route('/classify', methods=['POST'])
+@app.route('/classify', methods=['POST', 'OPTIONS'])
 def classify_image():
     data = request.get_json()
     img_b64 = data['image_base64']
